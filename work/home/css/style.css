@@ -1,0 +1,55 @@
+body{
+    background: url("../image/1.jpg");
+    animation-name:myfirst;
+    animation-duration:60s;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+}
+@keyframes myfirst
+{
+    0%   {background:url("../image/1.jpg");}
+    25%  {background:url("../image/2.jpg");}
+    50%  {background:url("../image/3.jpg");}
+    75%  {background:url("../image/4.jpg");}
+    100% {background:url("../image/1.jpg");}
+}
+body{
+    background-color: #e6e2c3;
+}
+
+/*index.html*/
+.container-fluid{
+	margin-left: 80px;
+}
+.navbar{
+    background: rgba(255,255,255,0.3);
+    font-size: 20px;
+    margin-bottom: 0;
+    border: 0 none;
+}
+.navbar-header{
+	/*background-color: rgba(231,202,127,0.5);*/
+}
+.navbar-right{
+	margin-right: 80px;
+}
+.dropdown-menu{
+	font-size: 20px;
+}
+
+/*login.html,register.html*/
+.form{
+    background-color: rgba(255,255,255,0.3);
+    /*background-color: #f8f8f8;*/
+    width:400px;
+    margin:50px auto;
+}
+.fa{
+    display: inline-block;
+    top: 27px;
+    left: 6px;
+    position: relative;
+    color: #ccc;
+}
+input[type="text"],input[type="password"]{padding-left:26px;}

@@ -1,0 +1,39 @@
+body{
+    /*background-color: #e6e2c3;*/
+}
+
+/*index.html*/
+.container-fluid{
+	margin-left: 80px;
+}
+.navbar{
+    /*background: rgba(255,255,255,0.5);*/
+    font-size: 20px;
+    margin-bottom: 0;
+    border: 2px solid #EEE;
+}
+.navbar-header{
+	/*background-color: rgba(231,202,127,0.5);*/
+	font-size:20px;
+}
+.navbar-right{
+	margin-right: 80px;
+}
+.dropdown-menu{
+	font-size: 20px;
+}
+.wrapper {
+    padding: 0 100px;
+}
+
+/*add.html*/
+.container-left{
+	margin-top:10px;
+	border:2px solid #EEE;
+}
+.container-right{
+	margin-top: 20px;
+}
+.container-right-body{
+	margin-left:20px;
+}
